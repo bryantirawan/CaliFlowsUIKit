@@ -80,10 +80,11 @@
             </objects>
             <point key="canvasLocation" x="368.70229007633588" y="-350"/>
         </scene>
-        <!--Table View Controller-->
+        <!--All Gage View Controller-->
         <scene sceneID="vDI-ky-BVC">
             <objects>
-                <tableViewController id="ScC-BR-MMS" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7E8-Mz-MEy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tableViewController id="ScC-BR-MMS" customClass="AllGageViewController" customModule="CaliFlows_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="vxP-hH-Ih5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,7 +117,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="wao-4J-TAn"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7E8-Mz-MEy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1228" y="-350"/>
         </scene>
@@ -284,7 +284,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Flow" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEh-Vg-pig">
-                                <rect key="frame" x="50" y="187.33333333333334" width="35.666666666666657" height="27.999999999999972"/>
+                                <rect key="frame" x="50" y="187.33333333333334" width="35.666666666666657" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -317,7 +317,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vLO-rU-E57" customClass="LevelIndicatorView">
-                                <rect key="frame" x="0.0" y="187.33333333333334" width="43" height="42.999999999999972"/>
+                                <rect key="frame" x="0.0" y="187.33333333333334" width="43" height="43"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="RQj-sj-KuL"/>
@@ -325,7 +325,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="☆" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="md6-Xe-grp">
-                                <rect key="frame" x="346" y="187.33333333333334" width="45" height="47.999999999999972"/>
+                                <rect key="frame" x="346" y="187.33333333333334" width="45" height="48"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -369,7 +369,7 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ds-kC-t7c">
-                                <rect key="frame" x="301" y="189.33333333333334" width="43" height="42.999999999999972"/>
+                                <rect key="frame" x="301" y="189.33333333333334" width="43" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="90B-qM-urE"/>
                                     <constraint firstAttribute="width" constant="43" id="V38-pD-8a0"/>

@@ -14,6 +14,9 @@
 		7BC1C1E82A4BADCF000DE9FF /* CaliFlows_UIKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1C1E62A4BADCF000DE9FF /* CaliFlows_UIKit.xcdatamodeld */; };
 		7BC1C1EA2A4BADD1000DE9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC1C1E92A4BADD1000DE9FF /* Assets.xcassets */; };
 		7BC1C1ED2A4BADD1000DE9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC1C1EB2A4BADD1000DE9FF /* LaunchScreen.storyboard */; };
+		7BC1C1F52A4CFE49000DE9FF /* AllGageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1C1F42A4CFE49000DE9FF /* AllGageViewController.swift */; };
+		7BC1C1F72A4D0E52000DE9FF /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1C1F62A4D0E52000DE9FF /* Run.swift */; };
+		7BC1C1F92A4D3B5C000DE9FF /* Gage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC1C1F82A4D3B5C000DE9FF /* Gage.swift */; };
 		96349E0B5CD5914E91170836 /* Pods_CaliFlows_UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921BF84D2B064CE4C66B3E5E /* Pods_CaliFlows_UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,9 @@
 		7BC1C1E92A4BADD1000DE9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BC1C1EC2A4BADD1000DE9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BC1C1EE2A4BADD1000DE9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC1C1F42A4CFE49000DE9FF /* AllGageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGageViewController.swift; sourceTree = "<group>"; };
+		7BC1C1F62A4D0E52000DE9FF /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		7BC1C1F82A4D3B5C000DE9FF /* Gage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gage.swift; sourceTree = "<group>"; };
 		921BF84D2B064CE4C66B3E5E /* Pods_CaliFlows_UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaliFlows_UIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF28CCFEE7A5BCD7E0211ABB /* Pods-CaliFlows UIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaliFlows UIKit.debug.xcconfig"; path = "Target Support Files/Pods-CaliFlows UIKit/Pods-CaliFlows UIKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,7 +56,6 @@
 				EF28CCFEE7A5BCD7E0211ABB /* Pods-CaliFlows UIKit.debug.xcconfig */,
 				263C68D535FA29BB67A47C5B /* Pods-CaliFlows UIKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,9 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				7BC1C1DD2A4BADCF000DE9FF /* AppDelegate.swift */,
+				7BC1C1F62A4D0E52000DE9FF /* Run.swift */,
+				7BC1C1F82A4D3B5C000DE9FF /* Gage.swift */,
 				7BC1C1DF2A4BADCF000DE9FF /* SceneDelegate.swift */,
 				7BC1C1E12A4BADCF000DE9FF /* ViewController.swift */,
 				7BC1C1E32A4BADCF000DE9FF /* Main.storyboard */,
+				7BC1C1F42A4CFE49000DE9FF /* AllGageViewController.swift */,
 				7BC1C1E92A4BADD1000DE9FF /* Assets.xcassets */,
 				7BC1C1EB2A4BADD1000DE9FF /* LaunchScreen.storyboard */,
 				7BC1C1EE2A4BADD1000DE9FF /* Info.plist */,
@@ -211,6 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC1C1E22A4BADCF000DE9FF /* ViewController.swift in Sources */,
+				7BC1C1F92A4D3B5C000DE9FF /* Gage.swift in Sources */,
+				7BC1C1F72A4D0E52000DE9FF /* Run.swift in Sources */,
+				7BC1C1F52A4CFE49000DE9FF /* AllGageViewController.swift in Sources */,
 				7BC1C1E82A4BADCF000DE9FF /* CaliFlows_UIKit.xcdatamodeld in Sources */,
 				7BC1C1DE2A4BADCF000DE9FF /* AppDelegate.swift in Sources */,
 				7BC1C1E02A4BADCF000DE9FF /* SceneDelegate.swift in Sources */,
