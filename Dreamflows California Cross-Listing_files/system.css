@@ -1,0 +1,27 @@
+    .roundedCorners     { border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -khtml-border-radius:10px; }
+    .bannerHeader       { background-color:#407baa; color:#FFFFFF; padding:10px; text-align:center; font-weight:bold; font-family:sans-serif}
+    .bannerTitle        { background-color:#407baa; color:#FFFFFF; font-size:150% }
+    .bannerMotto        { background-color:#407baa; color:#FFC000; font-size:100% }
+    .bannerLink         { background-color:#407baa; color:#FFFFFF; font-size:100%; vertical-align:middle }
+    .bannerImage        { vertical-align:middle }
+    .bannerGap          { font-size:40% }
+    .greetingHeader     { background-color:#FFFFFF; color:#000000; font-weight:bold; text-align:right; padding:3px }
+    .menuBarHeader      { background-color:#E0E0E0; color:#FFFFFF; padding:10px; text-align:left; font-weight:bold; font-family:sans-serif }
+    .menuBarTitle       { background-color:#E0E0E0; color:#000000; margin-left:12px; margin-right:8px; }
+    .menuBarLink1       { background-color:#E0E0E0; color:#0000FF; margin-left:8px; margin-right:8px; vertical-align:middle }
+    .menuBarLink2       { background-color:#E0E0E0; color:#FF0000; margin-left:8px; margin-right:12px; float:right; vertical-align:middle }
+    .menuBarImage       { vertical-align:middle }
+    .pageTrailerGoto    { background-color:#E0E0E0; color:#000000; margin-left:12px; margin-right:6px }
+    .pageTrailerLink    { font-size:100%; font-weight:normal; }
+    .pageTrailerText    { color:#6D379F; font-size:100% }
+    .marginNN           { margin-left:0px; margin-right:0px }
+    .marginNY           { margin-left:0px; margin-right:6px }
+    .marginYY           { margin-left:6px; margin-right:6px }
+    .marginYN           { margin-left:6px; margin-right:0px }
+    .floatLeft          { float: left }
+    .floatStartLeft     { clear: both; float: left }
+    .floatStartRight    { clear: both; float: right }
+    .floatRight         { float: right }
+    .widgetLeftMargin   { margin-left: 4px }
+    .widgetLeftGap      { margin-left: 30px }
+    .widgetRightGap     { margin-right: 30px }

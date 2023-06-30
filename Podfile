@@ -5,4 +5,6 @@ target 'CaliFlows UIKit' do
   
   pod 'Alamofire', '~> 5.0'
   pod 'RealmSwift', '~>10'
+  pod 'SwiftSoup', '~> 2.0'
+  
 end
